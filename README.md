@@ -1,8 +1,7 @@
 # Project-1
 Project 1, Group 5
+Yasmeen Dave Tommy
 
-# Project-1
-Project 1, Group 5
 
 KARAOKR
 
@@ -39,3 +38,5 @@ a.	lyrics scroll along with music
 b.	YT audio only
 c.	create setlists
 d.	WHAT ELSE?
+
+
