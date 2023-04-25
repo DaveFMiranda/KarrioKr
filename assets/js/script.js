@@ -1,10 +1,11 @@
 // input variable that receives text string from HTML input box
 // create element for search button
 
-var input = document.querySelector(".input");
+
 
 
 // YT data API key: AIzaSyBHj9EPuptQC5RJjuRdyrT3jmI82emkqlo
+
 
 
 // send input.text value to YT data API
