@@ -2,6 +2,8 @@
 // create element for search button
 
 var input = document.querySelector(".input");
+//linked lyrics database
+var requestURL = "https://api.lyrics.ovh/v1/artist/title";
 
 
 // YT data API key: AIzaSyBHj9EPuptQC5RJjuRdyrT3jmI82emkqlo
