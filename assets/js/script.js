@@ -1,14 +1,17 @@
 // input variable that receives text string from HTML input box
 // create element for search button
 
-var input = document.getElementById("#input");
-var search = document.getElementById("#searchbutton")
+var input = document.getElementById("input");
+var search = document.getElementById("searchbutton");
 
-search.addEventListener('click', searchClick);
 
-function searchclick(){
+function searchClick() {
    
-    console.log(input);
+    // calls the YT data API
+    // GET https://www.googleapis.com/youtube/v3/search
+
+
+    console.log(input.value);
 
     /* 1) triggers YT data API
     2) returns list of links
@@ -18,9 +21,13 @@ function searchclick(){
 }
 
 
+search.addEventListener('click', searchClick);
 
 
-//create searc
+// feature/lyricsAPI
+//linked lyrics database
+var requestURL = "https://api.lyrics.ovh/v1/artist/title";
+
 
 
 // YT data API key: AIzaSyBHj9EPuptQC5RJjuRdyrT3jmI82emkqlo
