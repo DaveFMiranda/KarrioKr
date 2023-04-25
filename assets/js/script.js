@@ -1,12 +1,37 @@
 // input variable that receives text string from HTML input box
 // create element for search button
 
-var input = document.querySelector(".input");
+/* feature/lyricsAPI
 //linked lyrics database
 var requestURL = "https://api.lyrics.ovh/v1/artist/title";
+var input = document.getElementById("#input");
+var search = document.getElementById("#searchbutton")
+
+search.addEventListener('click', searchClick);
+
+function searchclick(){
+   
+    console.log(input);
+
+    /* 1) triggers YT data API
+    2) returns list of links
+    3) triggers lyrics API
+    4) stores lyrics API
+    5) triggers dynamic creation of JS search results box */
+}
+
+
+
+
+//create searc
+*/
 
 
 // YT data API key: AIzaSyBHj9EPuptQC5RJjuRdyrT3jmI82emkqlo
+
+// search result	: contains info about search results
+
+// 
 
 
 // send input.text value to YT data API
