@@ -1,6 +1,9 @@
 // input variable that receives text string from HTML input box
 // create element for search button
 
+/* feature/lyricsAPI
+//linked lyrics database
+var requestURL = "https://api.lyrics.ovh/v1/artist/title";
 var input = document.getElementById("#input");
 var search = document.getElementById("#searchbutton")
 
@@ -21,6 +24,7 @@ function searchclick(){
 
 
 //create searc
+*/
 
 
 // YT data API key: AIzaSyBHj9EPuptQC5RJjuRdyrT3jmI82emkqlo
